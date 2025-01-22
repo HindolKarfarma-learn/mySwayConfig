@@ -241,5 +241,6 @@ input "1267:12584:ASUE1301:00_04F3:3128_Touchpad" {
 
 default_border pixel 3
     #bindsym $mod+Shift+b border toggle
+gaps inner 5
 
 include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "/etc/sway/config.d/*.conf" "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf")'
