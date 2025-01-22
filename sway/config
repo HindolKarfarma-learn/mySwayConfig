@@ -225,4 +225,10 @@ bindsym $mod+r mode "resize"
 # important to make the magic work. And if you want to learn the secret behind
 # the trick, it's all in the `wordexp(3)`.
 #
+#application launcher
+set $menu exec ~/.config/customScript/launcher.sh
+    bindsym Super_L exec $menu
+    bindsym $mod+d exec $menu
+    bindgesture swipe:up exec $menu
+
 include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "/etc/sway/config.d/*.conf" "${XDG_CONFIG_HOME:-$HOME/.config}/sway/config.d/*.conf")'
