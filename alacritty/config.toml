@@ -1,0 +1,78 @@
+[bell]
+animation = "EaseOutCirc"
+color = "0x464d6a"
+duration = 0
+
+[cursor]
+blink_interval = 500
+thickness =  0.15
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[font]
+size = 12
+
+[font.bold]
+family = "Cascadia Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Cascadia Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Cascadia Mono"
+style = "Italic"
+
+[font.normal]
+family = "Cascadia Mono "
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[mouse]
+hide_when_typing = true 
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[[mouse.bindings]]
+action = "Copy"
+mouse = "Right"
+
+#[mouse.double_click]
+#threshold = 300
+
+#[mouse.triple_click]
+#threshold = 300
+
+[scrolling]
+history = 500
+multiplier = 3
+
+[window]
+decorations = "full"
+decorations_theme_variant = "Dark"
+dynamic_padding = false
+dynamic_title = true
+opacity = 1
+startup_mode = "Windowed"
+title = "Alacritty"
+
+[window.class]
+general = "app_id"
+#instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5
+
+[general]
+live_config_reload = true
+working_directory = "None"

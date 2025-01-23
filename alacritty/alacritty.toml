@@ -1,0 +1,6 @@
+[general]
+import = [
+    "~/.config/alacritty/config.toml",
+    "~/.config/alacritty/gruvbox_hard_darkt.toml"
+#    "~/.cache/wal/colors-alacritty.toml",
+]
